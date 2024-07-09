@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafb;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: auto;
+    
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #c92525;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #d7cccc;
+}
+
+.ok {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+/* ::::::: Boton editar :::::: */
+
+td a.btnEdi {
+    width: 30px;
+    margin-bottom: 5px;
+    padding: 2px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+td a.btnEdi {
+    background-color: #13c90d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td a.btnEdi:hover {
+    background-color: #04a221;
+}
+
+/* ::::::: Boton eliminar :::::: */
+
+td a.btnEli {
+    width: 30px;
+    margin-bottom: 5px;
+    padding: 2px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+td a.btnEli {
+    background-color: #f34d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td a.btnEli:hover {
+    background-color: #a20404;
+}
